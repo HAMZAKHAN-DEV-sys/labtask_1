@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: #fff;
+    color: #000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #003300;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .search-icon {
+    font-size: 18px;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background: #f4f4f4;
+  }
+  
+  .hero-image {
+    width: 33%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero-image.left {
+    background-image: url('image-left.jpeg'); 
+  }
+  
+  .hero-image.right {
+    background-image: url('left.jpeg'); 
+  }
+  
+  .hero-text {
+    text-align: center;
+    width: 33%;
+  }
+  
+  .hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .shop-btn {
+    display: inline-block;
+    background: #003300;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .featured-products {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f9f9f9;
+  }
+  
+  .product-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .product-card {
+    background: #eaeaea;
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  footer {
+    background: #f4f4f4;
+    padding: 20px 40px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  footer .socials a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #003300;
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background: white;
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    background: transparent;
+  }
+  
+  .search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
